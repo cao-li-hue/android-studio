@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KeepActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#EBE9EE"
+        android:gravity="center"
+        android:text="精选壁纸"
+        android:textColor="#000080"
+        android:textSize="18sp"/>
+    <ListView
+        android:id="@+id/lv_goods"
+        android:background="@drawable/keepbj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

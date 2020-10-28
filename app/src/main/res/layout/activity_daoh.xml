@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/main_body"
+            android:background="@drawable/dhbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:divider="#E4E4E4"
+            android:dividerHeight="1dp"
+            android:listSelector="#bababa">
+            <TextView
+                android:id="@+id/btn_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+
+                android:background="@drawable/txbj"
+                android:text="头像推荐"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#696969"
+                />
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+                android:background="@drawable/qss"
+                android:text="去搜索"
+                />
+            <Button
+                android:id="@+id/btn_gg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/qgg"
+
+                android:text="去逛逛"/>
+
+            <ImageView
+                android:id="@+id/btn_tup"
+                android:layout_width="160dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/tx" />
+
+            <ImageView
+                android:id="@+id/btn_tup2"
+                android:layout_width="160dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/tx2" />
+
+            <ImageView
+                android:id="@+id/btn_tup3"
+                android:layout_width="160dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/tx3" />
+
+            <ImageView
+                android:id="@+id/btn_tup4"
+                android:layout_width="160dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/tx4" />
+
+            <ImageView
+                android:id="@+id/btn_tup5"
+                android:layout_width="160dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="460dp"
+                android:background="@drawable/tx5" />
+
+            <ImageView
+                android:id="@+id/btn_tup6"
+                android:layout_width="160dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="460dp"
+                android:background="@drawable/tx6" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_course"
+            android:layout_marginLeft="10dp"
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/mzp"
+            android:text="首页"
+            android:background="@android:color/transparent"
+            />
+
+        <Button
+            android:id="@+id/btn_execise"
+            style="@style/TabMenuItem"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+
+            android:checked="true"
+            android:drawableTop="@drawable/cww"
+            android:text="壁纸" />
+
+        <Button
+            android:background="@android:color/transparent"
+
+            android:id="@+id/btn_massage"
+            style="@style/TabMenuItem"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/jsk"
+            android:text="天气"/>
+        <Button
+            android:background="@android:color/transparent"
+
+            android:id="@+id/btn_my"
+            style="@style/TabMenuItem"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/wode"
+            android:text="音乐"/>
+
+
+    </RadioGroup>
+</LinearLayout>

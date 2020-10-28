@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myownapplication">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".BoyActivity" />
+        <activity android:name=".CoupleActivity" />
+        <activity android:name=".GirlActivity" />
+        <activity android:name=".RecyclerViewActivit" />
+        <activity android:name=".ShopActivity" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".KeepActivity" />
+        <activity android:name=".MyActivity" />
+        <activity android:name=".PetActivity" />
+        <activity android:name=".daoh" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

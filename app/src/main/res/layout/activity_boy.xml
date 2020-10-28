@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    >
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt1" />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt2" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt3" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt4" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt5" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt6" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt7" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt8" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt9" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt10" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt11" />
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tt12" />
+
+    <TextView
+        android:id="@+id/txt_content1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+</GridLayout>

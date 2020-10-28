@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgg">
+
+
+    <ImageView
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/timg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/yh"
+            android:hint="请输入用户名"
+            android:textSize="26sp"
+            android:textColor="#01579b"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/mima"
+            android:textColor="#01579b"
+            android:hint="请输入密码"
+            android:textSize="26sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <CheckBox
+            android:id="@+id/cb_auto_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#78909c"
+            android:text="自动登录"
+            android:textSize="26sp">
+        </CheckBox>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="390dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg"
+            android:text="登录"
+            android:textColor="#fce4ec"
+            android:textSize="32sp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="忘记密码？"
+            android:textSize="26dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="没有账号？"
+
+            android:textSize="26dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="使用微信登陆"
+        android:textColor="#9e9e9e"
+        android:textSize="18dp">
+
+    </TextView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_gravity="center"
+        android:src="@drawable/weixin" />
+
+
+</LinearLayout>
